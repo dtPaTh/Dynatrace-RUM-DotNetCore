@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dynatrace.RUM", "Dynatrace.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MM", "ModularMind.DotNetCore\MM\MM.csproj", "{F5976896-B31E-4F78-9312-8A84B6464B6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Example\Example.csproj", "{B140B6C0-11CE-4078-B508-B04F87435682}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{F5976896-B31E-4F78-9312-8A84B6464B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5976896-B31E-4F78-9312-8A84B6464B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5976896-B31E-4F78-9312-8A84B6464B6A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B140B6C0-11CE-4078-B508-B04F87435682}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B140B6C0-11CE-4078-B508-B04F87435682}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B140B6C0-11CE-4078-B508-B04F87435682}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B140B6C0-11CE-4078-B508-B04F87435682}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

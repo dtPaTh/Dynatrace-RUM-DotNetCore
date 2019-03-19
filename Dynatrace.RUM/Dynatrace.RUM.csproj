@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <Company>Dynatrace</Company>
+    <Copyright />
+    <RepositoryUrl>https://github.com/dtPaTh/Dynatrace-RUM-DotNetCore</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageTags />
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Product>Dynatrace</Product>
+    <Authors>Patrick Thurner</Authors>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
    <ItemGroup>
