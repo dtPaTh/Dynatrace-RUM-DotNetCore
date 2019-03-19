@@ -1,0 +1,3 @@
+[submodule "ModularMind.DotNetCore"]
+	path = ModularMind.DotNetCore
+	url = https://modularmind@dev.azure.com/modularmind/ModularMind.DotNetCore/_git/ModularMind.DotNetCore
