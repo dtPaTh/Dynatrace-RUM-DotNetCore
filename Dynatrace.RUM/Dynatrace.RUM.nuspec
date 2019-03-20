@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Dynatrace.RUM</id>
+    <version>1.0.0</version>
+    <title>Dynatrace.RUM</title>
+    <authors>Patrick Thurner</authors>
+    <owners>Patrick Thurner</owners>
+    <licenseUrl>https://raw.githubusercontent.com/dtPaTh/Dynatrace-RUM-DotNetCore/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/dtPaTh/Dynatrace-RUM-DotNetCore</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/dtPaTh/Dynatrace-RUM-DotNetCore/master/logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ASP.NET Core middleware for automatically injecting Dynatrace Real User Monitoring javascript tag</description>
+    <releaseNotes>Initial release of the package</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>Dynatrace</tags>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.1">
+        <dependency id="MM" version="1.0.0-beta" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
