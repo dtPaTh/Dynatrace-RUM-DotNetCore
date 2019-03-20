@@ -24,12 +24,12 @@ namespace Microsoft.AspNetCore.Builder
         }
         public static IApplicationBuilder UseDynatraceRUM(this IApplicationBuilder builder, string apiEndpoint, string apiToken, string applicationId, bool inlineJavascript = false)
         {
-            return builder.UseDynatraceRUM( apiEndpoint,
-                                            apiToken, 
-                                            applicationId, 
-                                            inlineJavascript, 
-                                            new string[] { "<head>"}, 
-                                            MM.Middleware.Helper.InsertType.After, 
+            return builder.UseDynatraceRUM(apiEndpoint,
+                                            apiToken,
+                                            applicationId,
+                                            inlineJavascript,
+                                            new string[] { "<script ", "</head>"}, 
+                                            MM.Middleware.Helper.InsertType.Before, 
                                             new string[] { "text/html", "application/xhtml+xml", "application/xhtml+xml" });
         }
 
