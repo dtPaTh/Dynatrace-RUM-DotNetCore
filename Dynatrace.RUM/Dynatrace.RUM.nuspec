@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Dynatrace.RUM</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <title>Dynatrace.RUM</title>
     <authors>Patrick Thurner</authors>
     <owners>Patrick Thurner</owners>
@@ -14,10 +14,5 @@
     <releaseNotes>Initial release of the package</releaseNotes>
     <copyright>Copyright 2019</copyright>
     <tags>Dynatrace</tags>
-    <dependencies>
-      <group targetFramework=".NETCoreApp2.1">
-        <dependency id="MM" version="1.0.0-beta" exclude="Build,Analyzers" />
-      </group>
-    </dependencies>
   </metadata>
 </package>
