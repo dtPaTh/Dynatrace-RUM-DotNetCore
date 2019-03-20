@@ -38,7 +38,7 @@ public void Configure(IApplicationBuilder app)
 ```
 
 ## Where can I get it?
-This package is available on [nuget.org](https://nuget.org)
+This package is available on [https://www.nuget.org/packages/Dynatrace.RUM](https://www.nuget.org/packages/Dynatrace.RUM)
 
 ## References
 The injection is utilizing HtmlInjectionMiddleware hosted on [Azure DevOps](https://dev.azure.com/modularmind/ModularMind.DotNetCore)
