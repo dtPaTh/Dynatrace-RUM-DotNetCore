@@ -40,5 +40,8 @@ public void Configure(IApplicationBuilder app)
 ## Where can I get it?
 This package is available on [nuget.org](https://nuget.org)
 
+## References
+The injection is utilizing HtmlInjectionMiddleware hosted on [Azure DevOps](https://dev.azure.com/modularmind/ModularMind.DotNetCore)
+
 ## License
 This package is licensed under the [Apache 2.0 license](LICENSE.txt).
