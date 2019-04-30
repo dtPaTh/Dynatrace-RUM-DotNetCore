@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Dynatrace.RUM</id>
-    <version>1.0.2</version>
+    <version>1.0.5</version>
     <title>Dynatrace.RUM</title>
     <authors>Patrick Thurner</authors>
     <owners>Patrick Thurner</owners>
@@ -14,5 +14,8 @@
     <releaseNotes>Initial release of the package</releaseNotes>
     <copyright>Copyright 2019</copyright>
     <tags>Dynatrace</tags>
+    <dependencies>
+      <dependency id="MM.Core" version="1.0.0" />
+    </dependencies>
   </metadata>
 </package>

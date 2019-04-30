@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Builder;
+using MM.Core.IO;
 using MM.Middleware;
 using System.Net.Http;
 using System.Threading.Tasks;
@@ -29,11 +30,11 @@ namespace Microsoft.AspNetCore.Builder
                                             applicationId,
                                             inlineJavascript,
                                             new string[] { "<script ", "</head>"}, 
-                                            MM.Middleware.Helper.InsertType.Before, 
+                                            InsertType.Before, 
                                             new string[] { "text/html", "application/xhtml+xml", "application/xhtml+xml" });
         }
 
-        public static IApplicationBuilder UseDynatraceRUM(this IApplicationBuilder builder, string apiEndpoint, string apiToken, string applicationId, bool inlineJavascript , string[] searchTags, MM.Middleware.Helper.InsertType insertType, string[] filterContentTypes  )
+        public static IApplicationBuilder UseDynatraceRUM(this IApplicationBuilder builder, string apiEndpoint, string apiToken, string applicationId, bool inlineJavascript , string[] searchTags, InsertType insertType, string[] filterContentTypes  )
         {
             var insert = GetJavascript(apiEndpoint, apiToken, applicationId, inlineJavascript).Result; 
 
