@@ -1,3 +1,6 @@
+# [DEPRECATED]
+Dynatrace released with [OneAgent version v1.239](https://www.dynatrace.com/support/help/whats-new/release-notes/oneagent/sprint-239) fully automatic real-user-monitoring (RUM) for Asp.Net Core with Kestrel (by default when not hosted with IIS).
+
 # Dynatrace.RUM 
 [![NuGet](http://img.shields.io/nuget/v/Dynatrace.RUM.svg)](https://www.nuget.org/packages/Dynatrace.RUM/)
 
